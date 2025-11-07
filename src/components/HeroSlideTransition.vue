@@ -121,7 +121,7 @@ onBeforeUnmount(() => {
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
-        stroke="#d4a750"
+        stroke="#627264"
         class="w-6 h-6"
       >
         <path
@@ -144,7 +144,7 @@ onBeforeUnmount(() => {
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
-        stroke="#d4a750"
+        stroke="#627264"
         class="w-6 h-6"
       >
         <path
