@@ -1,7 +1,7 @@
 <template lang="">
   <div class="navbar bg-base-100 shadow-sm">
     <div class="flex-1">
-      <a class="btn btn-ghost text-xl">HEMP EXCHANGE</a>
+      <a class="btn btn-ghost text-xl">HIGH EXCHANGE</a>
     </div>
     <div class="flex-none">
       <!-- Default Navbar shopping icons and functionality
