@@ -1,7 +1,12 @@
+<script setup>
+import logo from "../assets/logo.jpg";
+</script>
 <template lang="">
   <div class="navbar bg-base-100 shadow-sm">
     <div class="flex-1">
-      <a class="btn btn-ghost text-xl">HIGH EXCHANGE</a>
+      <a class="btn btn-ghost text-xl pt-10 pb-10"
+        ><img :src="logo" alt="HIGH EXCHANGE" :key="logo"
+      /></a>
     </div>
     <div class="flex-none">
       <!-- Default Navbar shopping icons and functionality
@@ -43,7 +48,7 @@
           <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
+              class="h-15 w-15"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -58,7 +63,7 @@
           </div>
           <ul
             tabindex="-1"
-            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow dropMenu"
           >
             <li><a>What we do</a></li>
             <li><a>Sign up</a></li>
@@ -75,4 +80,8 @@ export default {
   name: "Header",
 };
 </script>
-<style lang=""></style>
+<style lang="css">
+.dropMenu li a {
+  font-size: 1.25rem;
+}
+</style>
