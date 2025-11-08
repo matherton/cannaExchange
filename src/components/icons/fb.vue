@@ -1,5 +1,5 @@
 <template lang="">
-  <a href="https://www.facebook.com/mashtunedinburgh" target="_blank">
+  <a href="" target="_blank">
     <!-- Facebook Filled icon by Icons8 -->
     <svg
       xmlns="http://www.w3.org/2000/svg"

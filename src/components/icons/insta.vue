@@ -1,5 +1,5 @@
 <template lang="">
-  <a href="https://www.instagram.com/mashtunedinburgh/" target="_blank">
+  <a href="" target="_blank">
     <svg
       id="instagram"
       fill="#627264"
