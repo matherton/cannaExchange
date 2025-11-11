@@ -5,9 +5,9 @@ import logo from "../assets/logo.jpg";
 <template lang="">
   <div class="navbar bg-base-100 shadow-sm">
     <div class="flex-1">
-      <a class="btn btn-ghost text-xl pt-10 pb-10"
+      <router-link to="/"
         ><img :src="logo" alt="HIGH EXCHANGE" :key="logo"
-      /></a>
+      /></router-link>
     </div>
     <div class="flex-none">
       <!-- Default Navbar shopping icons and functionality
