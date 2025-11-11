@@ -83,6 +83,9 @@ export default {
 };
 </script>
 <style lang="css">
+.navbar {
+  padding: 0;
+}
 .dropMenu li a {
   font-size: 1.25rem;
 }
