@@ -9,11 +9,12 @@ import SignUp from "./pages/SignUp.vue";
 import "./index.css";
 
 const routes = [
-  { path: "/", component: Home },
-  { path: "/about", component: About },
-  { path: "/contact", component: Contact },
-  { path: "/member-login", component: MemberLogin },
-  { path: "/sign-up", component: SignUp },
+  { path: "/cannaExchange/", component: Home },
+  { path: "/cannaExchange/about", component: About },
+  { path: "/cannaExchange/contact", component: Contact },
+  { path: "/cannaExchange/member-login", component: MemberLogin },
+  { path: "/cannaExchange/sign-up", component: SignUp },
+  { path: "/cannaExchange/*", redirect: "/cannaExchange/" },
 ];
 
 const router = createRouter({

@@ -66,11 +66,21 @@ import logo from "../assets/logo.jpg";
             tabindex="-1"
             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow dropMenu"
           >
-            <li><router-link to="/">Home</router-link></li>
-            <li><router-link to="/about">What we do</router-link></li>
-            <li><router-link to="/sign-up">Sign up</router-link></li>
-            <li><router-link to="/member-login">Members Login</router-link></li>
-            <li><router-link to="/contact">Contact Us</router-link></li>
+            <li><router-link to="/cannaExchange/">Home</router-link></li>
+            <li>
+              <router-link to="/cannaExchange/about">What we do</router-link>
+            </li>
+            <li>
+              <router-link to="/cannaExchange/sign-up">Sign up</router-link>
+            </li>
+            <li>
+              <router-link to="/cannaExchange/member-login"
+                >Members Login</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/cannaExchange/contact">Contact Us</router-link>
+            </li>
           </ul>
         </div>
       </div>
