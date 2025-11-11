@@ -5,7 +5,7 @@ import logo from "../assets/logo.jpg";
 <template lang="">
   <div class="navbar bg-base-100 shadow-sm">
     <div class="flex-1">
-      <router-link to="/"
+      <router-link to="/cannaExchange/"
         ><img :src="logo" alt="HIGH EXCHANGE" :key="logo"
       /></router-link>
     </div>
