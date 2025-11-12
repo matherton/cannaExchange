@@ -1,31 +1,32 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from "vue";
 
-import burger from "../assets/burgernchips.webp";
-import crocs from "../assets/croquettes.webp";
-import nachos from "../assets/nachos.webp";
-import pescadito from "../assets/pescadito-frito.webp";
-const images = [crocs, burger, nachos, pescadito];
+import nugs2 from "../assets/nugs2.webp";
+import nugs3 from "../assets/nugs3.webp";
+import nugs4 from "../assets/nugs4.webp";
+import nugs5 from "../assets/nugs5.webp";
+
+const images = [nugs2, nugs3, nugs4, nugs5];
 const slides = [
   {
-    img: burger,
-    title: "",
-    text: "Cocktails",
+    img: nugs2,
+    title: "weed description????",
+    text: "Weed Strain",
   },
   {
-    img: crocs,
-    title: "",
-    text: "Live Music",
+    img: nugs3,
+    title: "weed description????",
+    text: "Weed Strain",
   },
   {
-    img: nachos,
-    title: "",
-    text: "Delicious Food",
+    img: nugs4,
+    title: "weed description????",
+    text: "Weed Strain",
   },
   {
-    img: pescadito,
-    title: "",
-    text: "Live Music",
+    img: nugs5,
+    title: "weed description????",
+    text: "Chill Vibes",
   },
 ];
 const currentIndex = ref(0);

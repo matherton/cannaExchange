@@ -1,22 +1,19 @@
+<script setup>
+import weed1 from "../assets/weed1.png";
+import weed2 from "../assets/weed2.png";
+import weed3 from "../assets/weed3.png";
+</script>
+
 <template lang="">
   <div class="carousel carousel-center rounded-box">
     <div class="carousel-item">
-      <img
-        src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
-        alt="Pizza"
-      />
+      <img :src="weed1" alt="weed1" />
     </div>
     <div class="carousel-item">
-      <img
-        src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
-        alt="Pizza"
-      />
+      <img :src="weed2" alt="weed2" />
     </div>
     <div class="carousel-item">
-      <img
-        src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
-        alt="Pizza"
-      />
+      <img :src="weed3" alt="weed3" />
     </div>
     <div class="carousel-item">
       <img
