@@ -1,10 +1,7 @@
 <template lang="html">
   <div class="card bg-base-100 w-96 shadow-sm">
     <figure>
-      <img
-        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-        alt="Shoes"
-      />
+      <img :src="imageSrc" alt="Shoes" />
     </figure>
     <div class="card-body">
       <h2 class="card-title">Card Title</h2>
@@ -18,9 +15,15 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
   name: "Card",
+  props: {
+    imageSrc: {
+      type: String,
+      required: true,
+    },
+  },
 };
 </script>
-<style lang=""></style>
