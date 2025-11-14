@@ -9,30 +9,13 @@ import weed3 from "../assets/weed3.png";
     <div class="carousel-item">
       <img :src="weed1" alt="weed1" />
     </div>
-    <div class="carousel-item">
-      <img
-        src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
-        alt="Pizza"
-      />
-    </div>
+
     <div class="carousel-item">
       <img :src="weed2" alt="weed2" />
     </div>
-    <div class="carousel-item">
-      <img
-        src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
-        alt="Pizza"
-      />
-    </div>
-    <div class="carousel-item">
-      <img :src="weed3" alt="weed3" />
-    </div>
 
     <div class="carousel-item">
-      <img
-        src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
-        alt="Pizza"
-      />
+      <img :src="weed3" alt="weed3" />
     </div>
   </div>
 </template>
