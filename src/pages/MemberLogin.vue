@@ -1,13 +1,9 @@
+<script setup>
+import LoginForm from "../components/LoginForm.vue";
+</script>
 <template>
-  <div>
-    <h1>Member Login</h1>
-    <form>
-      <label for="email">Email:</label>
-      <input type="email" id="email" v-model="email" />
-      <label for="password">Password:</label>
-      <input type="password" id="password" v-model="password" />
-      <button type="submit">Login</button>
-    </form>
+  <div class="member-login-page">
+    <LoginForm />
   </div>
 </template>
 <script>
@@ -21,4 +17,10 @@ export default {
   },
 };
 </script>
-<style lang=""></style>
+<style lang="css">
+.member-login-page {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+</style>

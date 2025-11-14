@@ -1,13 +1,9 @@
+<script setup>
+import CreateAccount from "../components/CreateAccount.vue";
+</script>
 <template>
-  <div>
-    <h1>Sign Up</h1>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" v-model="name" />
-      <label for="email">Email:</label>
-      <input type="email" id="email" v-model="email" />
-      <button type="submit">Submit</button>
-    </form>
+  <div class="sign-up-page">
+    <CreateAccount />
   </div>
 </template>
 <script>
@@ -21,4 +17,10 @@ export default {
   },
 };
 </script>
-<style lang=""></style>
+<style lang="css">
+.sign-up-page {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+</style>
