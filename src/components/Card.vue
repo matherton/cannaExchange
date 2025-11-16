@@ -4,7 +4,7 @@
       <img :src="imageSrc" alt="Shoes" />
     </figure>
     <div class="card-body">
-      <h2 class="card-title">Card Title</h2>
+      <h2 class="card-title">{{ title }}</h2>
       <p>
         A card component has a figure, a body part, and inside body there are
         title and actions parts
@@ -21,6 +21,10 @@ export default {
   name: "Card",
   props: {
     imageSrc: {
+      type: String,
+      required: true,
+    },
+    title: {
       type: String,
       required: true,
     },
