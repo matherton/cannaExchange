@@ -48,7 +48,7 @@ import Leaf from "../components/icons/leaf.vue";
       </div>
     </div>
   </section>
-  <section class="py-2 relative">
+  <section class="py-2 relative pb-4">
     <div class="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
       <h2
         class="text-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-center"
