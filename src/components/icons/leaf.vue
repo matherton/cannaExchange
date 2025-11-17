@@ -3,8 +3,8 @@
   <svg
     xmlns="http://www.w3.org/2000/svg"
     version="1.0"
-    width="26pt"
-    height="26pt"
+    :width="width"
+    :height="height"
     viewBox="0 0 1280.000000 1278.000000"
     preserveAspectRatio="xMidYMid meet"
   >
@@ -21,7 +21,17 @@
 </template>
 <script>
 export default {
-  name: "leaf",
+  name: "Leaf",
+  props: {
+    width: {
+      type: String,
+      default: "100%",
+    },
+    height: {
+      type: String,
+      default: "100%",
+    },
+  },
 };
 </script>
 <style lang=""></style>
