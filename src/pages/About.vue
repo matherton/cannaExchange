@@ -15,13 +15,13 @@ import Leaf from "../components/icons/leaf.vue";
             class="w-full flex-col justify-start lg:items-start items-center gap-4 flex"
           >
             <h2
-              class="text-dark-900 dark:text-white text-4xl font-bold font-manrope leading-normal lg:text-start text-center"
+              class="text-dark-900 dark:text-white text-4xl font-bold font-manrope leading-normal lg:text-start text-left"
             >
               Connecting South Africa’s Cannabis Industry — Directly &
               Transparently
             </h2>
             <p
-              class="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center"
+              class="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-left"
             >
               High Exchange is a B2B marketplace that streamlines how licensed
               growers and retailers trade. As the legal cannabis market expands,
@@ -29,12 +29,12 @@ import Leaf from "../components/icons/leaf.vue";
               inefficient.
             </p>
             <h2
-              class="py-4 white-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-center"
+              class="py-4 white-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-left"
             >
               A Structured Platform for a Growing Industry
             </h2>
             <p
-              class="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center"
+              class="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-left"
             >
               Traditional sourcing relies on informal networks, inconsistent
               quality, and unreliable pricing. High Exchange provides the
@@ -160,6 +160,22 @@ import Leaf from "../components/icons/leaf.vue";
           </li>
         </ul>
       </div>
+    </div>
+    <div class="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto pt-8">
+      <h2
+        class="text-dark-900 dark:text-white text-4xl font-bold font-manrope leading-normal lg:text-start text-left"
+      >
+        Why High Exchange
+      </h2>
+      <p
+        class="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-left"
+      >
+        We’re building the backbone of South Africa’s cannabis supply chain —
+        improving transparency, reducing risk, and enabling long-term
+        partnerships. Whether you’re a grower seeking consistent buyers or a
+        retailer needing reliable, high-quality supply, High Exchange brings the
+        industry together.
+      </p>
     </div>
   </section>
 </template>
