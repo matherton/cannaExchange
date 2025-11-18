@@ -1,16 +1,14 @@
 <script setup>
 import { RouterView } from "vue-router";
 import HeroSlideTransition from "../components/HeroSlideTransition.vue";
-import ThreeColLayout from "../layouts/3col.vue";
-import TwoColLayout from "../layouts/2col.vue";
+import IntroText from "../components/IntroText.vue";
 import Carousel from "../components/Carousel.vue";
 </script>
 <template>
   <div>
     <RouterView />
     <HeroSlideTransition />
-    <TwoColLayout />
-    <ThreeColLayout />
+    <IntroText />
     <Carousel />
   </div>
 </template>
