@@ -42,7 +42,7 @@ import { RouterLink } from "vue-router";
     </div>
     <div class="md:flex md:items-center mb-6">
       <div class="md:w-1/3"></div>
-      <label class="md:w-2/3 block text-gray-500 font-bold">
+      <label class="md:w-2/3 block text-gray-500">
         Don't have an account?
         <router-link
           class="no-underline border-b border-blue text-blue"
