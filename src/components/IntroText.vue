@@ -2,7 +2,9 @@
   <div
     class="w-full flex-col justify-start lg:items-start items-center gap-4 flex p-4"
   >
-    <div class="text-4xl font-bold text-gray-800">Welcome to High Exchange</div>
+    <div class="text-4xl font-bold text-gray-800 dark:text-white">
+      Welcome to High Exchange
+    </div>
 
     <p>
       High Exchange is a business to business solution that connects local
